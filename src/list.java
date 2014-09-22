@@ -5,15 +5,15 @@ public class list {
 	public void list()
 		throws IOException{
 		char choice, ignore;		
-		System.out.println("Виберіть будь ласка що вас турбує: ");
+		System.out.println("Choose the appropriate variant: ");
 		System.out.println();
 		for(;;){
 		do{			
-	System.out.println("1. Біль у вухах, у горлі, нежить. ");
-	System.out.println("2. Нежить, кашель, температура, біль у горлі.");
-	System.out.println("3. Біль суглобів, хребта, переломи. ");
-	System.out.println("4. Висип на шкірі, алергія. ");
-	System.out.println("Вийти - q");
+	System.out.println("1. sore throat ");
+	System.out.println("2. temperature, cough ");
+	System.out.println("3. back pain, factures ");
+	System.out.println("4. allergy ");
+	System.out.println("quit - q");
 	
 	choice = (char) System.in.read();
 	do{

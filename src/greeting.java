@@ -2,8 +2,8 @@ import java.util.*;
 
 public class greeting {
 	public void greeting(){		
-		System.out.println("Вас вітає обласна лікарня м.Івано-ФРанківська!");
-		System.out.println("Вкажіть наступну інформацію:  ");
+		System.out.println("Ivano-Frankivsk hospital");
+		System.out.println("Choose next information:  ");
 		System.out.println();		
 	}
 }
